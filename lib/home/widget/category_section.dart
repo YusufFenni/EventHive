@@ -1,3 +1,4 @@
+import 'package:eventhive/constants/image_constants.dart';
 import 'package:eventhive/widget/icon_text_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -14,31 +15,31 @@ class CategoryButtonsRow extends StatelessWidget {
         child: Row(
           children: [
             const IconTextContainer(
-              iconPath: 'assets/icon/ticket.svg',
+              iconPath: ImageConstants.musicImage,
               text: 'Concert',
               backgroundColor: Colors.purple,
             ),
             10.horizontalSpace,
             const IconTextContainer(
-              iconPath: 'assets/icon/art.svg',
+              iconPath: ImageConstants.festivalImage,
               text: 'Festival',
               backgroundColor: Colors.orange,
             ),
             10.horizontalSpace,
             const IconTextContainer(
-              iconPath: 'assets/icon/ball.svg',
+              iconPath: ImageConstants.sportImage,
               text: 'Sport',
               backgroundColor: Colors.green,
             ),
             10.horizontalSpace,
             const IconTextContainer(
-              iconPath: 'assets/icon/museum.svg',
+              iconPath: ImageConstants.museumImage,
               text: 'Museum',
               backgroundColor: Colors.blue,
             ),
             10.horizontalSpace,
             const IconTextContainer(
-              iconPath: 'assets/icon/tiatro.svg',
+              iconPath: ImageConstants.theaterImage,
               text: 'Theater',
               backgroundColor: Colors.red,
             ),

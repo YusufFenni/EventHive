@@ -1,5 +1,6 @@
 
 import 'package:eventhive/constants/color_constants.dart';
+import 'package:eventhive/generated/locale_keys.g.dart';
 import 'package:eventhive/home/widget/search_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -47,7 +48,7 @@ class HomeLocationNotification extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Current Location",
+                LocaleKeys.currentLocation,
                 style: TextStyle(
                   color: Colors.white.withOpacity(0.8),
                   fontSize: 14.sp,
@@ -55,7 +56,7 @@ class HomeLocationNotification extends StatelessWidget {
               ),
               3.horizontalSpace,
               Text(
-                "New York, USA",
+                "New York, USA", //! Todo 
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18.sp,

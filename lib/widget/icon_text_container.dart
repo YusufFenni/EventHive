@@ -34,7 +34,7 @@ class IconTextContainer extends StatelessWidget {
             height: 20.h,
             color: Colors.white,
           ),
-          4.horizontalSpace,
+          8.horizontalSpace,
           Text(
             text,
             style: TextStyle(
